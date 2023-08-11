@@ -26,10 +26,6 @@ export function App() {
   };
 
   const countTotalFeedback = () => good + neutral + bad;
-  // Object.values({ good, neutral, bad }).reduce(
-  //   (total, value) => total + value,
-  //   0
-  // );
 
   const countPositiveFeedbackPercentage = () => {
     const total = countTotalFeedback();
